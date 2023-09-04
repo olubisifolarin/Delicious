@@ -1,0 +1,825 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.navImg{
+  background-image: url('./assets/slide.jpg') ;
+  height: 1000px;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.bgLogo{
+  display: inline-flex;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 15px;
+  transition: 0.5s;
+} 
+
+.nav-logo{
+  color: white;
+  margin: 1rem;
+  text-decoration: none; 
+  margin-left: 7rem ;
+  margin-top: -0.5%; 
+}
+
+.nav-links{
+  display: flex;
+  gap: 3rem;
+  margin-left: 10rem;
+  list-style: none;
+  margin-top: 1.4rem; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+  text-decoration: none; 
+  color: white;
+}
+
+.nav-link:hover{
+  color: #ffb03b;
+}
+
+.nav-icon{
+  display: none;
+}
+
+.btn{
+  background-color: #ffb03b;
+  border-radius: 10px;
+  border-color: #ffb03b;
+  width: 130px;
+  height: 30px;
+  color: white;
+}
+
+.delicious{
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+}
+
+h2{
+  font-family: 'Pinyon Script';
+  font-size: 3.5rem;
+  font-weight: 600;
+  -webkit-transform: translateZ(0);
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h4{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffb03b;
+}
+
+span{
+  color: #ffb03b;
+}
+
+.menuButton{
+  width: 15%;
+  height: 40px;
+  border-radius: 10px ;
+  margin: 1rem;
+  color: white;
+  background-color: #ffb03b;
+  margin-top: 2rem;
+}
+
+.menuButton:hover{
+  background-color: white;
+  border: #ffb03b solid 2px;
+  color: black;
+}
+
+.about{
+  display: flex;
+  background-color: #fffaf3;
+  height: 750px;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+.Cards{
+  display: flex;
+  margin-top: 2rem;  
+}
+
+.box{
+  width: 90%;
+  height: 300px; 
+  margin: 1.5rem;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  transition: all ease-in-out 0.3s;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+.box:hover{
+  background-color: #ffb03b;
+  color: white;
+}
+
+.cake{
+  width: 100%;
+  height: 500px;
+  margin-top: 5.5rem;
+}
+
+.lorem{
+  margin-left: 3rem;
+  margin-top: 5.5rem;
+  color: #848484;
+}
+
+.loremMobile{
+  font-style: italic;
+}
+.check{
+  color: #ffb03b;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}
+
+.checking{
+  color: #ffb03b;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.eumipsam{
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+ 
+}
+
+.menu{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.menuMeal{
+  color: #ffb03b;
+  font-weight: 600;
+  font-size: 1.2rem;
+
+}
+
+.menuText{
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.crab{
+  margin-left: 2rem;
+}
+
+.spinach{
+  margin-left: 1.5rem;
+}
+.allMenu{
+  padding: 1.5rem;
+  margin-left: 3rem;
+}
+
+.tastyMenu, .checkSpecial, .chooseRestaurant, .gallery, .table, .contact{
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+h5{
+  color: #ffb03b;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h5:hover{
+  color: #ffb03b;
+}
+
+.special{
+  display: inline-flex;
+  margin-top: 3rem;
+}
+
+.specialLorem{
+  margin-left: 11rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.specialLorem:hover{
+  color: #ffb03b;
+}
+
+.hrule{
+  border: 1px solid #ffb03b;
+  height: 220px;
+  margin-left: 3rem;
+}
+.architecto{
+  margin-left: 6rem;
+}
+.plate{
+  width: 75%;
+  margin-left: 4rem;
+}
+
+.photos{
+  width: 31%;
+  margin: 0.4rem;
+  margin-left: 0.7rem;
+}
+
+.GallaryPhotos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.table{
+  margin-left: 12rem;
+}
+
+.Form{
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  width: 90%;
+  height: 650px;
+  margin-left: 2.5rem;
+  margin: 3rem;
+}
+
+.Form input{
+  width: 45%;
+  height: 40px;
+  margin: 1rem;
+  border: solid 1px;
+  margin-top: 2rem; 
+}
+
+.textarea{
+  width: 93%;
+  height: 200px;
+  margin-left: 1rem;
+  border: solid 1px;
+  margin-top: 2rem;
+}
+
+.tableButton{
+  text-align: center;
+  margin: auto;
+  background-color: #ffb03b;
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  border: #ffb03b;
+  color: white;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+}
+
+.slider{
+  background-image: url('assets/gallery1.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.testimonial-slide, .quote{
+  text-align: center;
+  color: white;
+}
+
+.testImg{
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.ratingImg{
+  width: 10%;
+  height: 50px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.testimonialSlider{
+  word-break: break-word;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.SliderDots li button:before {
+  color: white!important; 
+  font-size: 1.3rem!important;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.SliderDots li.slick-active button:before {
+  color: #ffb03b!important; 
+  font-size: 1.3rem !important;
+  gap: 2rem;
+}
+
+.right{
+  margin-left: 18rem;
+}
+
+.ContactForm{
+  width: 90%;
+  height: 650px;
+  margin-left: 2.5rem;
+  margin: 3rem;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.location{
+  padding-top: 4rem;
+  margin-left: 4rem;
+  flex-wrap: wrap;
+}
+
+.name input{
+  width: 44%;
+  height: 40px;
+  margin: 1rem;
+  border: solid 1px;
+  margin-top: 3rem;
+}
+
+.subject{
+  width: 91%;
+  height: 40px;
+  margin: 1rem;
+  border: solid 1px;
+  margin-bottom: 2rem;
+}
+
+.ContactTextarea{
+  width: 91%;
+  border: solid 1px;
+  margin: 1rem;
+  height: 140px;
+}
+
+h6{
+  font-weight: bold;
+}
+.open, .mail, .call{
+  margin-left: 0.5rem;
+}
+
+.arrow, .open, .call, .mail{
+  margin-right: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.icon{
+  margin-left: 4rem;
+ 
+}
+
+.email, .phoneCall, .clock, .arrow{
+  color: #ffb03b!important;
+  font-family: 800;
+  margin-right: 3rem;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  height: 280px;
+  padding-top: 2rem;
+}
+
+.socialLinks{
+  text-align: center;
+  display: inline-flex;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.linkedin{
+  width: 30%;
+  height: 30px;
+}
+
+.footerText{
+  color: white
+}
+
+
+@media (max-width: 600px) {
+  body, html{
+      overflow-x: hidden; 
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+  .navImg{
+      height: 680px;
+    } 
+
+    .bgLogo{
+      width: 100%!important;
+      position: relative;
+    }
+
+    .nav-links{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 75%!important;
+      height: 600px;
+      top: 65px;
+      left: -150%;
+      transition: 0.5s all;
+      font-size: 1rem;
+      background-color: white;
+      z-index: 2; 
+      margin: 1rem;
+    }
+  
+    .nav-links.active{ 
+      left: 0;
+    }
+
+    .nav-link{
+      color: black;
+      margin-left: 2rem;
+    }
+
+    .nav-icon{
+      display: flex;
+      margin-top: 1rem;
+      margin-left: 6.5rem!important;
+      font-size: 2.5rem!important;  
+      color: white;
+    }
+
+    .nav-logo{
+      margin-left: 1rem!important;
+    }
+
+    .menuButton{
+      width: 30%;
+      height: 40px;
+    }
+
+    .about{
+      display: block;
+      margin-top: 4rem;
+      height: 1300px;
+    }
+
+    .cake{
+      height: 350px;
+    }
+
+    .lorem{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      height: 300px;
+    }
+
+    .loremMobile{
+      margin-top: 1rem;
+    }
+
+    .Cards, .special, .GallaryPhotos, .architecttoPlate, .Form, .ContactForm, .location{
+      display: block;
+    }
+
+    .allMenu, .menu, .crab, .spinach{
+      margin: 0;
+    }
+
+    .menuMeal{
+      font-size: 1rem;
+    }
+ 
+    .architecto, .specialLorem{
+      margin-left: 1rem;
+    }
+
+    .architecttoPlate{
+      margin-top: 2rem;
+    }
+    .hrule{
+      display: none;
+    }
+
+    .plate{
+      width: 85%;
+      margin-top: 2rem;
+      margin: 2rem!important;
+
+    }
+
+    .photos{
+      width: 85%;
+      margin-left: 2.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .Form{
+      width: 90%;
+      height: 920px;
+      margin: 1.2rem;
+      padding: 1rem;
+    }
+  
+    .table{
+      margin-left: 0.8rem;
+    }
+
+    .tableButton{
+      width: 45%;
+    }
+
+    .Form Input, .textarea{
+      width: 90%!important;
+  }
+
+  .slider{
+    margin-top: 4rem;
+    height: 550px!important;
+  }
+
+  .quote{
+    margin-left: 1rem!important;
+  }
+
+  .right{
+    margin-left: 15rem!important;
+    margin-top: 0.5rem!important;
+  }
+
+  .testimonialSlider{
+    padding: 4rem;
+    margin-left: -2.5rem;
+  }
+
+  .map{
+    width: 90%;
+  }
+  .location{
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .open, .call, .mail{
+   margin-left: 0;
+  }
+    
+  .ContactForm{
+    height: 920px!important;
+    margin-left: 1.2rem;
+  }
+
+  .name Input{
+    width: 90%;
+    margin: 1rem;
+  }
+
+  .subject, .ContactTextarea{
+    width: 90%;
+  }
+
+  .footer{
+    height: 350px;
+  }
+}
+
+
+
+@media (max-width:820px) {
+  .navImg{
+    height: 680px;
+  } 
+
+  .nav-logo{
+    margin-left: 6rem;
+  }
+
+  
+  .bgLogo{
+    width: 100%;
+    position: relative;
+  }
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55%;
+    height: 600px;
+    top: 65px;
+    left: -150%;
+    transition: 0.5s all;
+    font-size: 1rem;
+    background-color: white;
+    margin: 2rem;
+    z-index: 2;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .nav-link{
+    color: black;
+    margin-left: 2rem;
+  }
+
+  .nav-icon{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 27rem;
+    font-size: rem;  
+    color: white;
+  }
+
+  .Cards, .special, .architecttoPlate, .about{
+    display: block; 
+  } 
+
+  .about{
+    height: 1300px;
+    margin-top: 5rem;
+  }
+
+  .plate{
+    margin-left: 6rem;
+  }
+  .hrule{
+    display: none;
+  }
+
+  .allMenu, .menu, .crab, .spinach{
+    margin: 0rem;
+  }
+
+  .table, .location{
+    margin: 1rem;
+  }
+
+  .textarea{
+    width: 94%;
+  }
+
+  .ContactForm{
+    height: 750px;
+  }
+  .map{
+    width: 100%;
+  }
+
+  .architecttoPlate{
+    margin-top: 2rem;
+  }
+  .hrule{
+    display: none;
+  }
+}
+
+@media (max-width:770px) {
+  .ContactForm{
+    height: 720px;
+  }
+}
+
+
+@media (max-width:920px) {
+  .navImg{
+    height: 680px;
+  } 
+
+  .bgLogo{
+    width: 100%;
+    position: relative;
+  }
+  
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55%;
+    height: 600px;
+    top: 65px;
+    left: -150%;
+    transition: 0.5s all;
+    font-size: 1rem;
+    background-color: white;
+    margin: 2rem;
+    z-index: 2;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .nav-link{
+    color: black;
+    margin-left: 2rem;
+  }
+
+  .nav-icon{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 25rem;
+    font-size: 3rem;  
+    color: white;
+  }
+
+  .Cards, .special, .architecttoPlate, .about{
+    display: block; 
+  } 
+
+  .about{
+    height: 1300px;
+    margin-top: 5rem;
+  }
+
+  .plate{
+    margin-left: 6rem;
+  }
+  .hrule{
+    display: none;
+  }
+
+  .allMenu, .menu, .crab, .spinach{
+    margin: 0rem;
+  }
+
+  .table, .location{
+    margin: 1rem;
+  }
+
+  .textarea{
+    width: 94%;
+  }
+
+  .ContactForm{
+    height: 750px;
+  }
+  .map{
+    width: 100%;
+  }
+
+  .architecttoPlate{
+    margin-top: 2rem;
+  }
+  .hrule{
+    display: none;
+  }
+}
+
+@media (max-width:1240px) {
+  .nav-logo{
+    margin-left: 2rem;
+  }
+
+  .nav-links{
+    margin-left: 3rem;
+  }
+
+  .menu, .allMenu{
+    margin: 0;
+  }
+
+  .table{
+    margin-left: 4rem;
+  }
+
+  .map{
+    width: 100%;
+  }
+
+}
