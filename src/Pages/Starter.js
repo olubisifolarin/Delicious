@@ -21,7 +21,7 @@ const Starter= () => {
                 <button className='menuButton'>Starters</button>
             </div>
 
-            <div className="flex flex-row">
+            <div className="flex flex-row starter">
                 <AllMenu
                         name= {
                         <h6 className="crab">Tuncas Grilled..................................$1.20</h6>

@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 body{
@@ -10,7 +10,8 @@ body{
 }
 
 .navImg{
-  background-image: url('./assets/slide.jpg') ;
+  background-image: url('./assets/slide.jpg') ; 
+  background-color: rgba(0, 0, 0, 0.6); 
   height: 1000px;
   width: 100%;
   top: 0;
@@ -115,7 +116,6 @@ span{
   background-color: #fffaf3;
   height: 750px;
   margin-bottom: 6rem;
-  margin-top: 4rem;
 }
 
 .Cards{
@@ -125,7 +125,7 @@ span{
 
 .box{
   width: 90%;
-  height: 300px; 
+  height: 360px; 
   margin: 1.5rem;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   transition: all ease-in-out 0.3s;
@@ -307,6 +307,8 @@ h5:hover{
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
 }
 
 .testimonial-slide, .quote{
@@ -435,7 +437,7 @@ h6{
 
 
 @media (max-width: 600px) {
-  body, html{
+   html, body{
       overflow-x: hidden; 
       scroll-behavior: smooth;
       margin: 0;
@@ -494,7 +496,7 @@ h6{
 
     .about{
       display: block;
-      margin-top: 4rem;
+      margin-top: -4rem!important;
       height: 1300px;
     }
 
@@ -512,7 +514,7 @@ h6{
       margin-top: 1rem;
     }
 
-    .Cards, .special, .GallaryPhotos, .architecttoPlate, .Form, .ContactForm, .location{
+    .Cards, .special, .GallaryPhotos, .architecttoPlate, .Form, .ContactForm, .location, .starter{
       display: block;
     }
 
@@ -569,7 +571,7 @@ h6{
 
   .slider{
     margin-top: 4rem;
-    height: 550px!important;
+    height: 630px!important;
   }
 
   .quote{
@@ -599,7 +601,7 @@ h6{
   }
     
   .ContactForm{
-    height: 920px!important;
+    height: 1000px!important;
     margin-left: 1.2rem;
   }
 
@@ -672,7 +674,6 @@ h6{
 
   .about{
     height: 1300px;
-    margin-top: 5rem;
   }
 
   .plate{
@@ -753,7 +754,7 @@ h6{
   .nav-icon{
     display: flex;
     margin-top: 1rem;
-    margin-left: 25rem;
+    margin-left: 30rem;
     font-size: 3rem;  
     color: white;
   }
@@ -802,12 +803,23 @@ h6{
 }
 
 @media (max-width:1240px) {
+  body, html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
   .nav-logo{
     margin-left: 2rem;
   }
 
   .nav-links{
     margin-left: 3rem;
+  }
+
+  .bgLogo{
+    width: 100%;
+    position: relative;
   }
 
   .menu, .allMenu{
@@ -823,3 +835,21 @@ h6{
   }
 
 }
+
+@media (max-width:1280px) {
+  body, html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bgLogo{
+    width: 100%;
+    position: relative;
+  }
+
+  .map{
+    width: 100%;
+  }
+}
+

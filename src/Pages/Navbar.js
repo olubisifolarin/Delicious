@@ -69,7 +69,7 @@ const Navbar = () => {
     
             </div>
 
-        <section id='home' style={{ paddingTop: '90px' }}>
+        <section id='home' style={{ paddingTop: '120px' }}>
             <div className='delicious'>
                 <h2 className=''><span>Delicious</span> Restaurant</h2>
                 <p className='mt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> 
