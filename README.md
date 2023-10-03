@@ -1,3 +1,6 @@
+A Food Web Application created with Html, CSS, JavaScript, React and Tailwindcss. 
+Hosted Link: https://willowy-zuccutto-4e656c.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
