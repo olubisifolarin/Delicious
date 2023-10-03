@@ -27,12 +27,12 @@ const Specials = () => {
                 <div className='flex flex-row architecttoPlate'>
                     <div className='architecto'>
                     
-                    <h3 className=''>Architecto ut aperiam autem id</h3>
-                    <p><i>Qui laudantium consequatur laborum sit qui ad sapiente <br />dila parde sonata raqer
-                        a videna mareta paulona marka Et nobis maiores eius.</i><br /> 
-                        Voluptatibus ut enim blanditiis atque harum sint. Laborum eos <b />
-                        repellat minima eveniet eius et quis magni nihil. Consequatur <br />
-                        dolorem quaerat quos qui similique accusamus</p>
+                        <h3 className=''>Architecto ut aperiam autem id</h3>
+                        <p><i>Qui laudantium consequatur laborum sit qui ad sapiente <br />dila parde sonata raqer
+                            a videna mareta paulona marka Et nobis maiores eius.</i><br /> 
+                            Voluptatibus ut enim blanditiis atque harum sint. Laborum eos <b />
+                            repellat minima eveniet eius et quis magni nihil. Consequatur <br />
+                            dolorem quaerat quos qui similique accusamus</p>
                     </div>
                     <div>
                         <img src={specials1} className="plate" alt='plate' />
